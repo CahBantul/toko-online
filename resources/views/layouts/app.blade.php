@@ -45,7 +45,7 @@
                         @if(Auth::user())
                             @if(Auth::user()->level === 0)
                                 <li class="nav-item">
-                                    <a class="nav-link" href="{{ url('BelanjaUser') }}">{{ 'Belanja Anda' }}</a>
+                                    <a class="nav-link" href="{{ url('belanja-user') }}">{{ 'Belanja Anda' }}</a>
                                 </li>
                             @endif
                         @endif
