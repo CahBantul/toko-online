@@ -22,3 +22,4 @@ Auth::routes();
 Route::get('/', \App\Http\Livewire\Home::class);
 Route::get('/tambah-produk', \App\Http\Livewire\TambahProduk::class);
 Route::get('/belanja-user', \App\Http\Livewire\BelanjaUser::class);
+Route::get('/tambah-ongkir/{id}', \App\Http\Livewire\TambahOngkir::class);

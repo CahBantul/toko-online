@@ -2,24 +2,14 @@
 
 namespace App\Http\Livewire;
 
-<<<<<<< HEAD
-use App\Models\Produk;
-=======
 use App\Models\Belanja;
 use App\Models\Produk;
 use GuzzleHttp\Handler\Proxy;
 use Illuminate\Support\Facades\Auth;
->>>>>>> fe0a8678c8c3be0611460311ae4a6c1a04661cfa
 use Livewire\Component;
 
 class Home extends Component
 {
-<<<<<<< HEAD
-    public $produk = [];
-    public function render()
-    {
-        $this->produk = Produk::all();
-=======
     public $products =[];
 
     // atribut filtering
@@ -63,7 +53,6 @@ class Home extends Component
             
 
         }
->>>>>>> fe0a8678c8c3be0611460311ae4a6c1a04661cfa
         return view('livewire.home')
         ->extends('layouts.app')->section('content');
     }
